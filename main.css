@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: grey;
+  height: 10vh;
+}
+
+hgroup {
+  background-color: lightgrey;
+  margin: auto;
+}
+
+nav {
+  margin: auto;
+}
+nav ul li {
+  display: inline;
+
+}
