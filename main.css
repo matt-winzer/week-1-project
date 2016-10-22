@@ -34,3 +34,10 @@ nav ul li {
     color: lightgrey;
     padding: 1em;
 }
+
+.main-images {
+  display: flex;
+  flex direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
