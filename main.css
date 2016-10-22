@@ -1,25 +1,36 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  background-color: grey;
-  height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: grey;
+    min-height: 10vh;
 }
 
 hgroup {
-  background-color: lightgrey;
-  margin: auto;
+    color: lightgrey;
+    margin: auto;
 }
 
+h1 {
+  font-size: 2em;
+}
 nav {
-  margin: auto;
-}
-nav ul li {
-  display: inline;
+    margin: auto;
+    background-color: darkgrey;
 
+}
+
+nav ul {
+  padding: 1em;
+}
+
+nav ul li {
+    display: inline;
+    color: lightgrey;
+    padding: 1em;
 }
