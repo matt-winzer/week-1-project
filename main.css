@@ -32,8 +32,12 @@ nav ul {
 
 nav ul li {
     display: inline;
-    color: lightgrey;
     padding: 1em;
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
 }
 
 .main-images {
@@ -45,4 +49,15 @@ nav ul li {
 
 figure {
   margin: .25em;
+}
+
+footer {
+  min-height: 7.5vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+}
+
+small {
+  color:
 }
