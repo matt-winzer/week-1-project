@@ -59,5 +59,6 @@ footer {
 }
 
 small {
-  color:
+  color: lightgrey;
+  margin: auto;
 }
