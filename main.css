@@ -9,6 +9,7 @@ header {
     flex-wrap: wrap;
     background-color: grey;
     min-height: 10vh;
+    margin-bottom: 1em;
 }
 
 hgroup {
@@ -36,8 +37,12 @@ nav ul li {
 }
 
 .main-images {
-  display: flex;
-  flex direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    flex direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure {
+  margin: .25em;
 }
