@@ -83,13 +83,14 @@ article img {
 
 h2 {
   margin-bottom: .5em;
-  color: lightgrey;
+  color: #998E8E;
   text-transform: uppercase;
   font-size: 1.5em;
 }
 
 p {
-  color: lightgrey;
+  /*color: #FF6464;*/
+  color: #998E8E;
   font-size: 1.25em;
   line-height: 1.5;
 }
@@ -101,7 +102,7 @@ p {
 }
 
 details {
-  color: orange;
+  color: #FF0000;
   margin-top: 1em;
   float: right;
 }
