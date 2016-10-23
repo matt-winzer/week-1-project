@@ -47,6 +47,10 @@ a {
     flex-wrap: wrap;
 }
 
+.main-images img {
+  height: 300px;
+}
+
 figure {
     margin: .25em;
 }
