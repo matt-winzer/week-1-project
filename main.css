@@ -12,7 +12,7 @@ main {
     flex: 1;
 }
 
-header {
+.primary-header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
