@@ -36,8 +36,8 @@ nav ul li {
 }
 
 a {
-  color: lightgrey;
-  text-decoration: none;
+    color: lightgrey;
+    text-decoration: none;
 }
 
 .main-images {
@@ -48,17 +48,29 @@ a {
 }
 
 figure {
-  margin: .25em;
+    margin: .25em;
+}
+
+.main-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+article {
+  border: 1px solid black;
 }
 
 footer {
-  min-height: 7.5vh;
-  background-color: grey;
-  display: flex;
-  flex-direction: row;
+    min-height: 7.5vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
 }
 
 small {
-  color: lightgrey;
-  margin: auto;
+    color: lightgrey;
+    margin: auto;
 }
