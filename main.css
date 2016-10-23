@@ -60,7 +60,6 @@ figure {
 }
 
 article {
-    border: 1px solid black;
     width: 25%;
     margin: 1em .5em;
 }
@@ -79,6 +78,12 @@ p {
   margin-right: .5em;
   margin-bottom: .5em;
   float: left;
+}
+
+details {
+  color: orange;
+  margin-top: 1em;
+  float: right;
 }
 
 footer {
