@@ -68,6 +68,10 @@ article {
     margin: 1em .5em;
 }
 
+article img {
+  width: 80px;
+}
+
 h2 {
   margin-bottom: .5em;
   color: lightgrey;
