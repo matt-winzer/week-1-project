@@ -52,17 +52,33 @@ figure {
 }
 
 .main-articles {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    ;
 }
 
 article {
-  /*border: 1px solid black;*/
-  width: 23%;
-  margin-top: .5em;
-  margin: 1em .5em;
+    border: 1px solid black;
+    width: 25%;
+    margin: 1em .5em;
+}
+
+h2 {
+  margin-bottom: .5em;
+  color: lightgrey;
+  text-transform: uppercase;
+}
+
+p {
+  color: lightgrey;
+}
+
+.article-image {
+  margin-right: .5em;
+  margin-bottom: .5em;
+  float: left;
 }
 
 footer {
