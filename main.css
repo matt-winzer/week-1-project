@@ -3,9 +3,9 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
@@ -58,7 +58,7 @@ a {
 }
 
 .main-images img {
-  height: 300px;
+    height: 300px;
 }
 
 figure {
@@ -70,6 +70,7 @@ figure {
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
+    margin-top: 1em;
 }
 
 article {
@@ -78,33 +79,33 @@ article {
 }
 
 article img {
-  width: 80px;
+    width: 80px;
 }
 
 h2 {
-  margin-bottom: .5em;
-  color: #998E8E;
-  text-transform: uppercase;
-  font-size: 1.5em;
+    margin-bottom: .5em;
+    color: #998E8E;
+    text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 p {
-  /*color: #FF6464;*/
-  color: #998E8E;
-  font-size: 1.25em;
-  line-height: 1.5;
+    /*color: #FF6464;*/
+    color: #998E8E;
+    font-size: 1.25em;
+    line-height: 1.5;
 }
 
 .article-image {
-  margin-right: .5em;
-  margin-bottom: .5em;
-  float: left;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    float: left;
 }
 
 details {
-  color: #FF0000;
-  margin-top: 1em;
-  float: right;
+    color: #FF0000;
+    margin-top: 1em;
+    float: right;
 }
 
 footer {
